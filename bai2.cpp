@@ -1,17 +1,13 @@
 #include <stdio.h>
-int main()
-{	
-	float a;
-	scanf("%f",&a);
-	if (a<0)
+int main(){
+	int n;
+	printf("Nhap so nguyen n:");
+	scanf("%d",&n);
+	for (int i=0;i<n;i++)
 	{
-		printf("Day la so am \n");
-	}
-	else if (a>0)
-	{
-		printf("Day la so duong\n");
-	}
-	else
-		printf("Day la so 0");
+		if (i%3==0){
+		printf("%d\n",i);
+		}
+}	
 	return 0;
 }
