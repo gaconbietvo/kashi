@@ -11,12 +11,12 @@ int main (){
 	scanf("%f",&y);
 	printf("Enter No of years:\n");
 	scanf("%d",&z);
-	for (int i=1; i<=z; i++)
+	for (int i=0; i<=z; i++)
 	{
 		n = x*(y/100);
 		x += n;
 		printf("Year	Interest	Sum\n");
-		printf("%d	%f	%f\n",z,n,x);
+		printf("%d	%f	%f\n",i,n,x);
 	}
 	return 0;
 }
